@@ -24,6 +24,12 @@ epoch = 3.1
 path = 'contracts/employer-reputation.clar'
 clarity_version = 3
 epoch = 3.1
+
+[contracts.salary-insurance-pool]
+path = 'contracts/salary-insurance-pool.clar'
+clarity_version = 3
+epoch = 3.1
+
 [repl.analysis]
 passes = ['check_checker']
 
