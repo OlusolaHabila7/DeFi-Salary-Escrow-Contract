@@ -1,0 +1,44 @@
+[project]
+name = 'DeFi-Salary-Escrow-Contract'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.DeFi-Salary-Escrow-Contract]
+path = 'contracts/DeFi-Salary-Escrow-Contract.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.payment-history]
+path = 'contracts/payment-history.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.performance-analytics]
+path = 'contracts/performance-analytics.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.employer-reputation]
+path = 'contracts/employer-reputation.clar'
+clarity_version = 3
+epoch = 3.1
+
+[contracts.salary-insurance-pool]
+path = 'contracts/salary-insurance-pool.clar'
+clarity_version = 3
+epoch = 3.1
+
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
