@@ -30,6 +30,10 @@ path = 'contracts/salary-insurance-pool.clar'
 clarity_version = 3
 epoch = 3.1
 
+[contracts.salary-bonus-vault]
+path = 'contracts/salary-bonus-vault.clar'
+clarity_version = 3
+epoch = 3.1
 [repl.analysis]
 passes = ['check_checker']
 
